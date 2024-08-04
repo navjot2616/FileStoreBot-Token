@@ -19,7 +19,7 @@ APP_ID = int(os.environ.get("APP_ID", ""))
 API_HASH = os.environ.get("API_HASH", "")
 
 #Your db channel Id
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002204292693"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002241485197"))
 
 #OWNER ID
 OWNER_ID = int(os.environ.get("OWNER_ID", "1052054451"))
@@ -35,7 +35,7 @@ SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "instantlinks.co")
 SHORTLINK_API = os.environ.get("SHORTLINK_API", "c77b487c933e23e5c3187cd103e0e46f672cad36")
 VERIFY_EXPIRE = int(os.environ.get('VERIFY_EXPIRE', 43200)) # Add time in seconds
 IS_VERIFY = os.environ.get("IS_VERIFY", "True")
-TUT_VID = os.environ.get("TUT_VID","hotcheks/3")
+TUT_VID = os.environ.get("TUT_VID","hotshick/3")
 
 
 #force sub channel id, if you want enable force sub
